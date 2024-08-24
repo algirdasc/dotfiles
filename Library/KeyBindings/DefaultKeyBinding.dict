@@ -2,5 +2,7 @@
   "\UF729"  = moveToBeginningOfLine:;                    // home
   "\UF72B"  = moveToEndOfLine:;                          // end
   "\UF72C"  = pageUp:;                                   // page up
-  "\UF72D"  = pageDown:;                                 // page down 
+  "\UF72D"  = pageDown:;                                 // page down
+  "$\UF729" = moveToBeginningOfLineAndModifySelection:;  // shift+home
+  "$\UF72B" = moveToEndOfLineAndModifySelection:;        // shift+end
 }
